@@ -1,9 +1,9 @@
 import React from 'react'
-import cardImg1 from '../../public/assets/cardImg1.png'
+import cardImg1 from '../public/assets/cardImg1.png'
 import { AiOutlineUnorderedList, AiOutlineClockCircle } from 'react-icons/ai'
 import { MdAttachment } from 'react-icons/md'
 import Image from 'next/image'
-import smlimg1 from '../../public/assets/smlimg1.png'
+import smlimg1 from '../public/assets/smlimg1.png'
 
 
 const ImgCard=({ title, img }) => {

@@ -40,16 +40,16 @@ const Sidebar=() => {
                 </div>
                 <div className='flex flex-col justify-end gap-y-3 pb-6'>
                     <div className='h-[50px] w-[50px] bg-white rounded-full'>
-                        <Image src={img1} className=' text-[#C3CAD9] hover:text-[#3361FF]' />
+                        <Image src={img1} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
                     </div>
                     <div className='h-[50px] w-[50px] bg-white rounded-full'>
-                        <Image src={img2} className=' text-[#C3CAD9] hover:text-[#3361FF]' />
+                        <Image src={img2} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
                     </div>
                     <div className='h-[50px] w-[50px] bg-white rounded-full'>
-                        <Image src={img3} className=' text-[#C3CAD9] hover:text-[#3361FF]' />
+                        <Image src={img3} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
                     </div>
                     <div className='h-[50px] w-[50px] bg-white rounded-full'>
-                        <Image src={img4} className=' text-[#C3CAD9] hover:text-[#3361FF]' />
+                        <Image src={img4} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
                     </div>
                     <div className='h-[50px] w-[50px] bg-white rounded-full p-2.5'>
                         <IoIosAddCircle className='w-[30px] h-[30px] text-[#C3CAD9] hover:text-[#3361FF]' />
@@ -69,7 +69,7 @@ const Sidebar=() => {
                     <div className='flex justify-center'>
                         <div className='border-2 rounded-full border-blue-600 p-3'>
                             <div class="bg-yellow-400 rounded-full w-40 h-40">
-                                <Image src={main} class="w-full h-full rounded-full" />
+                                <Image src={main} alt='main' className="w-full h-full rounded-full" />
                             </div>
                         </div>
 
