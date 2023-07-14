@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { BsThreeDots } from 'react-icons/bs'
