@@ -7,11 +7,7 @@ import { IoIosAddCircle } from 'react-icons/io'
 import { MdEmail } from 'react-icons/md'
 import { VscTasklist } from 'react-icons/vsc'
 import { HiUserGroup } from 'react-icons/hi'
-import img1 from '../public/avatarimg1.png'
-import img2 from '../public/avatarimg2.png'
-import img3 from '../public/avatarimg3.png'
-import img4 from '../public/avatarimg4.png'
-import main from '../public/main.png'
+
 
 import Image from 'next/image'
 const Sidebar=() => {
@@ -40,16 +36,16 @@ const Sidebar=() => {
                 </div>
                 <div className='flex flex-col justify-end gap-y-3 pb-6'>
                     <div className='h-[50px] w-[50px] bg-white rounded-full'>
-                        <Image src={img1} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
+                        <Image src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311804/avatarimg1_woxe55.png" width={50} height={50} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
                     </div>
                     <div className='h-[50px] w-[50px] bg-white rounded-full'>
-                        <Image src={img2} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
+                        <Image src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311804/avatarimg3_kpbe6p.png" width={50} height={50} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
                     </div>
                     <div className='h-[50px] w-[50px] bg-white rounded-full'>
-                        <Image src={img3} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
+                        <Image src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311804/avatarimg4_ofy0cu.png" width={50} height={50} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
                     </div>
                     <div className='h-[50px] w-[50px] bg-white rounded-full'>
-                        <Image src={img4} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
+                        <Image src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311804/avatarimg2_erul35.png" width={50} height={50} alt='img' className=' text-[#C3CAD9] hover:text-[#3361FF]' />
                     </div>
                     <div className='h-[50px] w-[50px] bg-white rounded-full p-2.5'>
                         <IoIosAddCircle className='w-[30px] h-[30px] text-[#C3CAD9] hover:text-[#3361FF]' />
@@ -69,7 +65,7 @@ const Sidebar=() => {
                     <div className='flex justify-center'>
                         <div className='border-2 rounded-full border-blue-600 p-3'>
                             <div class="bg-yellow-400 rounded-full w-40 h-40">
-                                <Image src={main} alt='main' className="w-full h-full rounded-full" />
+                                <Image src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311805/main_vjgimz.png" width={110} height={110} alt='main' className="w-full h-full rounded-full" />
                             </div>
                         </div>
 

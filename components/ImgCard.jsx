@@ -1,21 +1,19 @@
 import React from 'react'
-import cardImg1 from '../public/cardImg1.png'
 import { AiOutlineUnorderedList, AiOutlineClockCircle } from 'react-icons/ai'
 import { MdAttachment } from 'react-icons/md'
 import Image from 'next/image'
-import smlimg1 from '../public/smlimg1.png'
 
 
 const ImgCard=({ title, img }) => {
     return (
         <div className='flex flex-col justify-between gap-y-4 py-3 px-4 bg-white rounded-lg'>
-            <Image src={img} alt="building" />
+            <Image src={img} alt="building" width={230} height={170} />
             <div className='flex '>
                 <p className='text-[#ADB8CC]  text-[10px] font-[700] leading-[20px]'>
                     Space Tasks 2
                 </p>
                 <div className='ml-auto'>
-                    <Image className='' src={smlimg1} alt="profile" />
+                    <Image className='' src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311805/smlimg1_gvybdf.png" alt="profile" width={20} height={20} />
                 </div>
             </div>
             <p className='text-[#6B7A99] text-[12px] font-[700] leading-[20px]'>

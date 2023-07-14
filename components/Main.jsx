@@ -3,19 +3,13 @@ import { HiUserGroup } from 'react-icons/hi'
 import { BiSearch } from 'react-icons/bi'
 
 import { BiSolidDashboard } from 'react-icons/bi'
-import { BsFillArrowUpRightCircleFill, BsBuildingsFill, BsFillPersonFill, BsThreeDots } from 'react-icons/bs'
+import { BsBuildingsFill, BsFillPersonFill } from 'react-icons/bs'
 import { FaGlobeAmericas } from 'react-icons/fa'
-import { MdAttachment } from 'react-icons/md'
 import { MdEmail } from 'react-icons/md'
-import { AiOutlineUnorderedList, AiOutlineClockCircle } from 'react-icons/ai'
 
-import cardImg1 from '../public/cardImg1.png'
-import cardImg2 from '../public/cardImg2.png'
-import smlimg1 from '../public/smlimg1.png'
 import Headcard from './Headcard'
 import ImgCard from './ImgCard'
 import SmlCard from './SmlCard'
-import Image from 'next/image'
 const Main=() => {
     return (
         <div className='pl-[30rem] '>
@@ -56,7 +50,7 @@ const Main=() => {
                     <Headcard title="TO DO" borderColor="border-[#8833FF]" />
                     <div className='flex flex-col gap-y-3 mt-5'>
                         <div className='w-[230px] h-[285px] mb-4'>
-                            <ImgCard title="Make Money Online Through" img={cardImg1} />
+                            <ImgCard title="Make Money Online Through" img="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311805/cardimg1_sdpiiw.png" />
                         </div>
                         <SmlCard title="Make Money Online Through" />
                         <SmlCard title="Search Engine Optimization ..." />
@@ -70,7 +64,7 @@ const Main=() => {
                     <div className='flex flex-col gap-y-3 mt-5'>
                         <SmlCard title="Types Of Paper In Catalog" />
                         <div className='w-[230px] h-[285px] mb-4'>
-                            <ImgCard title="Global Resorts Network" img={cardImg2} />
+                            <ImgCard title="Global Resorts Network" img="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311805/cardimg2_mij6dq.png" />
                         </div>
 
                         <SmlCard title="Development Apps" />
@@ -85,7 +79,7 @@ const Main=() => {
                         <SmlCard title="Astronomy Binoculars A Great" />
                         <SmlCard title="Task name or type " />
                         <div className='w-[230px] h-[285px] mb-4'>
-                            <ImgCard title="Make Money Online Through" img={cardImg1} />
+                            <ImgCard title="Make Money Online Through" img="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311805/cardimg1_sdpiiw.png" />
                         </div>
                     </div>
                 </div>
@@ -94,7 +88,7 @@ const Main=() => {
                     <div className='flex flex-col gap-y-3 mt-5'>
                         <SmlCard title="Copper Canyon" />
                         <div className='w-[230px] h-[285px] mb-4'>
-                            <ImgCard title="Make Money Online Through" img={cardImg1} />
+                            <ImgCard title="Make Money Online Through" img="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311805/cardimg2_mij6dq.png" />
                         </div>
                     </div>
                 </div>
