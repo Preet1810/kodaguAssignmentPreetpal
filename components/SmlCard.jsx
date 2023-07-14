@@ -1,5 +1,5 @@
 import React from 'react'
-import smlimg1 from '../public/assets/smlimg1.png'
+import smlimg1 from '../public/smlimg1.png'
 import Image from 'next/image'
 
 const SmlCard=({ title }) => {
