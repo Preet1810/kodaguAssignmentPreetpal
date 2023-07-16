@@ -10,9 +10,9 @@ import { HiUserGroup } from 'react-icons/hi'
 
 
 import Image from 'next/image'
-const Sidebar=() => {
+const Sidebar=({ isMenuOpen }) => {
     return (
-        <div className='absolute flex bg-[#EDEFF2]'>
+        <div className='hidden md:flex bg-[#EDEFF2]'>
             <div className='flex flex-col justify-between px-5 pt-10 border-r-2 border-[#b7b8b9] h-[1075px]'>
                 <div className='flex flex-col gap-y-4'>
                     <div className='h-[50px] w-[50px] bg-white rounded-full p-2.5'>
@@ -52,7 +52,7 @@ const Sidebar=() => {
                     </div>
                 </div>
             </div>
-            <div className='pt-10 px-14'>
+            {isMenuOpen&&<div className='pt-10 px-14'>
                 <div className='w-[240px] h-[283px]'>
                     <div className='flex'>
                         <div className='h-[50px] w-[50px] bg-white rounded-full p-2.5'>
@@ -68,13 +68,11 @@ const Sidebar=() => {
                                 <Image src="https://res.cloudinary.com/dwh4llt0c/image/upload/v1689311805/main_vjgimz.png" width={110} height={110} alt='main' className="w-full h-full rounded-full" />
                             </div>
                         </div>
-
                     </div>
                     <div className='flex flex-col pt-10 gap-3'>
                         <p className='text-[#6B7A99] text-center text-[16px] font-[700] leading-[30px]'>Hello Alfred Bryant</p>
                         <p className='text-[#6B7A99] text-center text-[16px] font-[700] leading-[30px]'>adrain.nader@yahoo.com</p>
                     </div>
-
                     <div className='grid grid-cols-2 pt-8 gap-10 '>
                         <div className='flex justify-center'>
                             <div className='hover:cursor-pointer'>
@@ -141,13 +139,11 @@ const Sidebar=() => {
                             </div>
                         </div>
                     </div>
-
                     <div>
-
                     </div>
                 </div>
+            </div>}
 
-            </div>
         </div>
     )
 }
